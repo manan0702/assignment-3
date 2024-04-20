@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style type="text/css">
+            .tiltingParent {
+                transform-style: preserve-3d;
+                transform: perspective(1000px);
+            }
+            .tiltingChildrens {
+                transform: translateZ(25px);
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Introduction</h5>
+                <button type="button" class="close close-intro" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                Sabyasachi Mukherjee (born 23 February 1974) is an Indian fashion designer, jewelry designer, retailer and couturier from Kolkata, India. Since 1999, he has sold designer merchandise using the label Sabyasachi. Mukherjee is one of the Associate Designer Members of Fashion Design Council of Indiaand the youngest board member of the National Museum of Indian Cinema.
+              </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalCenterContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+                <button type="button" class="close close-contact" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                sabyasachi@gmail.com <br>
+                ig, twitter, yt: Sabyasachi123
+              </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagOneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Devi Collection</h5>
+                <button type="button" class="close close-imagOneModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background2.jpg" data-holder-rendered="true">
+                <p>
+                     Devi collection is a celebration of feminine grace, power, and spirituality. It pays homage to the divine feminine energy revered in Indian mythology. The collection features a stunning array of traditional Indian ensembles such as sarees, lehengas, anarkalis, and kurta sets, each meticulously adorned with exquisite embroidery, rich fabrics, and intricate detailing.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a data-toggle="modal" data-target="#modalRegister" class="navbar-brand tilt tiltingParent" href="#"><img class="tiltingChildrens" height="100" width="100" src="assets/img/logo.png"></a>
+                <button data-toggle="modal" data-target="#modalRegister" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link contact-click" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header style="background-image: url('assets/img/background.png');" class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                  <p>I am Sabyasachi, a fashion designer based in India, blending traditional craftsmanship with contemporary aesthetics.</p>
+                    <a class="btn btn-danger btn-xl rounded-pill mt-5" href="#scroll">Know More</a>
+       
+                </div>
+            </div>
+<!--             <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div> -->
+        </header>
+        <!-- Content section 1-->
+        <section style="background-color: #742124" id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-12 order-lg-1">
+                        <div class="p-5">
+                            <div class="row">
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background2.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">Devi collection is a celebration of feminine grace, power, and spirituality. It pays homage to the divine feminine energy revered in Indian mythology. </p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagOneModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background3.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">Firdaus collection transports you to a realm of ethereal beauty and romanticism, inspired by the enchanting allure of Kashmir's majestic landscapes and rich cultural heritage. </p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagTwoModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background4.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">The collaboration between Sabyasachi and Bergdorf Goodman represents a fusion of Indian opulence with New York sophistication, resulting in a collection that captures</p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagThreeModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background5.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">The Surreal Sabyasachi collection of 2021 was a mesmerizing journey into the realm of dreams and fantasy, where reality intertwines </p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagFourModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background6.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">The Mughal Garden campaign by Sabyasachi was a breathtaking ode to the timeless beauty and grandeur</p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagFiveModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="card mb-4 box-shadow">
+                                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/background7.jpg" data-holder-rendered="true">
+                                            <div class="card-body">
+                                              <p class="card-text">In the "Kashgaar Bazaar" collection, Sabyasachi seamlessly blends the exotic allure of Central Asian aesthetics with his own</p>
+                                              <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                  <button type="button" class="btn btn-sm btn-outline-secondary imagSixModal">Read more</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal fade" id="imagTwoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Firdaus Collection</h5>
+                <button type="button" class="close close-imagTwoModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background3.jpg" data-holder-rendered="true">
+                <p>
+            Firdaus collection transports you to a realm of ethereal beauty and romanticism, inspired by the enchanting allure of Kashmir's majestic landscapes and rich cultural heritage. Drawing from the poetry and mystique of the Kashmir Valley, weaves a tapestry of dreamy silhouettes and exquisite craftsmanship in his Firdaus collection.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagThreeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Sabyasachi X Bergdorf Goodman</h5>
+                <button type="button" class="close close-imagThreeModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background4.jpg" data-holder-rendered="true">
+                <p>
+            The collaboration between Sabyasachi and Bergdorf Goodman represents a fusion of Indian opulence with New York sophistication, resulting in a collection that captures the essence of both worlds. The collection featured a rich color palette inspired by the vibrant hues of India, with jewel tones like emerald green, ruby red, and sapphire blue alongside softer pastels and neutrals.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagFourModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">The Surreal Sabyasachi Collection (2021)</h5>
+                <button type="button" class="close close-imagFourModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background5.jpg" data-holder-rendered="true">
+                <p>
+            The Surreal Sabyasachi collection of 2021 was a mesmerizing journey into the realm of dreams and fantasy, where reality intertwines with imagination to create a tapestry of enchanting beauty. Drawing inspiration from surrealism, magic realism, and fantasy literature, the Surreal Sabyasachi collection transported viewers to a world where the ordinary becomes extraordinary and the mundane is infused with magic.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagFiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mughal Garden Campaign</h5>
+                <button type="button" class="close close-imagFiveModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background6.jpg" data-holder-rendered="true">
+                <p>
+            The Mughal Garden campaign by Sabyasachi was a breathtaking ode to the timeless beauty and grandeur of Mughal architecture and gardens. The campaign showcased a stunning array of ensembles inspired by the intricate motifs, lush landscapes, and vibrant colors synonymous with Mughal gardens. Sarees, lehengas, anarkalis, and sherwanis adorned with exquisite embroidery, luxurious fabrics, and rich embellishments transported viewers to a bygone era of imperial splendor and romance.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="imagSixModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Kashgaar Bazaar</h5>
+                <button type="button" class="close close-imagSixModal" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div style="background-color: #ffc96a; border-bottom-color: red" class="modal-body">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="assets/img/background7.jpg" data-holder-rendered="true">
+                <p>
+            In the "Kashgaar Bazaar" collection, Sabyasachi seamlessly blends the exotic allure of Central Asian aesthetics with his own signature style, creating a fusion of East-meets-West couture. The collection features a kaleidoscope of colors, textures, and patterns, reminiscent of the vibrant tapestry of goods found in the markets of Kashgar.
+                </p>
+            </div>
+              <div style="background-color: #ffc96a; border-top-color: red" class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/Tiltify.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                imagSixModal
+                $("#exampleModalCenter").modal();
+
+                $(".imagSixModal").click(function() {
+                    console.log("hello world")
+                    $('#imagSixModal').modal('show');
+
+                })
+                $(".close-imagSixModal").click(function(dom) {
+                    $('#imagSixModal').modal('hide');
+                })
+
+
+
+                $(".imagFiveModal").click(function() {
+                    console.log("hello world")
+                    $('#imagFiveModal').modal('show');
+
+                })
+                $(".close-imagFiveModal").click(function(dom) {
+                    $('#imagFiveModal').modal('hide');
+                })
+
+
+
+                $(".imagFourModal").click(function() {
+                    console.log("hello world")
+                    $('#imagFourModal').modal('show');
+
+                })
+                $(".close-imagFourModal").click(function(dom) {
+                    $('#imagFourModal').modal('hide');
+                })
+
+
+
+                $(".imagThreeModal").click(function() {
+                    console.log("hello world")
+                    $('#imagThreeModal').modal('show');
+
+                })
+                $(".close-imagThreeModal").click(function(dom) {
+                    $('#imagThreeModal').modal('hide');
+                })
+
+
+
+                $(".imagTwoModal").click(function() {
+                    console.log("hello world")
+                    $('#imagTwoModal').modal('show');
+
+                })
+                $(".close-imagTwoModal").click(function(dom) {
+                    $('#imagTwoModal').modal('hide');
+                })
+
+
+
+                $(".imagOneModal").click(function() {
+                    console.log("hello world")
+                    $('#imagOneModal').modal('show');
+
+                })
+                $(".close-imagOneModal").click(function(dom) {
+                    $('#imagOneModal').modal('hide');
+                })
+
+                $(".tiltingParent").click(function() {
+                    console.log("hello world")
+                    $('#exampleModalCenter').modal('show');
+
+                })
+                $(".close-intro").click(function(dom) {
+                    $('#exampleModalCenter').modal('hide');
+                })
+
+                $(".contact-click").click(function() {
+                    console.log("hello world")
+                    $('#exampleModalCenterContact').modal('show');
+
+                })
+                $(".close-contact").click(function(dom) {
+                    $('#exampleModalCenterContact').modal('hide');
+                })
+            })
+            let tiltify = new Tiltify($$(".tilt"), {
+                max: 55,
+                perspective: 1000,
+                speed: 300
+            })
+        </script>
+    </body>
+</html>
